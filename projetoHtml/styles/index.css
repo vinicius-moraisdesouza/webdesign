@@ -1,0 +1,169 @@
+header {
+  background-color: #5e8fc0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.header > nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.imgLogo {
+  width: 80px;
+}
+
+.headerLogo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+main {
+  height: calc(100vh - 84px);
+}
+
+footer {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding: 16px;
+  background-color: #787878;
+}
+
+.mainContent {
+  font-size: 32px;
+  padding-top: 32px;
+  font-weight: bold;
+}
+
+.mainContent ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.mainContent ul li {
+  background-color: #5e8fc0;
+  padding: 8px 4px;
+  border-radius: 8px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mainContent ul li h3 {
+  font-weight: bold;
+}
+
+.mainContent ul li p {
+  font-size: 12px;
+}
+
+.mainContent ul li img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.mainContentSobre {
+  padding-top: 32px;
+}
+
+.mainContentSobre h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.mainContentSobre div {
+  display: flex;
+  font-size: 24px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContentSobre div img {
+  width: 200px;
+  margin-top: 32px;
+}
+
+.mainContentSuporte h3 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.formSuporte {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.formSuporte > input {
+  height: 32px;
+}
+
+.mainContentContact {
+  padding-top: 32px;
+  font-size: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  text-align: center;
+}
+
+.mainContentContact h4 {
+  font-weight: bold;
+}
+.mainContentContact div {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContentServico {
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.mainContentServico h2 {
+  font-size: 32px;
+}
+
+.mainContentServico div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
